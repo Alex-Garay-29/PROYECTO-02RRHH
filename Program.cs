@@ -24,17 +24,24 @@ namespace ConsoleApp1
             Console.Write("Horas Extras Trabajadas: ");
             int horasExtras = int.Parse(Console.ReadLine());
 
-            double MontoExtra = horasExtras * pagofijoHora;
-            double sueldoTotal = sueldoMensual + MontoExtra;
+            double MontoExtra;
+            double sueldoFinal;
 
-            Console.WriteLine(" el sueldo de {0} al mes sera de : {1} * {2} = {3} + {4} = {5}" , 
-            Trabajador , horasExtras, pagofijoHora , MontoExtra , sueldoMensual , sueldoTotal );
+            if (horasExtras > 0)
+            {
+                MontoExtra = horasExtras * pagofijoHora;
+                sueldoFinal = sueldoMensual + MontoExtra;
+            }
+            else
+            {
+                sueldoFinal = sueldoMensual;
+            }
+            Console.WriteLine("El sueldo total al mes de " + Trabajador + " será: S/ " + sueldoFinal.ToString("F2"));
 
             Console.ReadKey();
         }
     }
 }
-   
 
 
 
