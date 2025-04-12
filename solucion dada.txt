@@ -1,0 +1,5 @@
+SOLUCION AL PROBLEMA IDENTIFICADO
+
+Se plantea la implementación de un programa, que permita registrar los datos básicos del trabajador, 
+ingresar las horas extras realizadas, y calcular de forma automática su sueldo total del mes, 
+considerando una tarifa fija por cada hora extra trabajada.

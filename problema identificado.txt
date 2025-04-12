@@ -1,0 +1,6 @@
+Problema Identificado
+
+En los últimos meses, la empresa MyT Consultores ha experimentado un crecimiento importante en la demanda de sus productos,
+lo que ha generado un aumento en la carga laboral de sus trabajadores. Por ende, se ha solicitado a los colaboradores que realicen horas extras.
+Sin embargo, esta nueva modalidad, ha generado una dificultad en el área de Recursos Humanos dado que no cuentan con un sistema adecuado para registrar
+y calcular de manera automática el sueldo mensual de cada trabajador, incluyendo las horas extras que realiza. 
